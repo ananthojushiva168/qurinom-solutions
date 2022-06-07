@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    object-fit: cover;
+    width: 150px;
+    height: 100px;
+}
+
+.links>div:hover {
+    text-decoration: underline;
+}
+
+.links1 {
+    display: flex;
+    border: 1px solid grey;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    flex-direction: column;
+}
+
+.links1>div {
+    padding: 5px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid grey;
+}
+
+.links>div {
+    margin-left: 10px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    font-family: 'consolas';
+
+}
+
+nav {
+    margin-left: 10px;
+    font-size: 1.4rem;
+    margin-right: 10px;
+    font-family: 'consolas';
+}
+
+nav:hover {
+    cursor: pointer;
+}
+
+.links>div:active {
+    text-decoration: underline;
+}
+
+.links>div:hover {
+    cursor: pointer;
+    color: rgb(88, 88, 216);
+}
+
+.more:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.more {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.icons {
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.icons div input {
+    width: 220px;
+    height: 30px;
+    padding: 10px;
+    margin-right: 5px;
+}
+
+.si {
+    margin-right: 10px;
+    font-size: 2rem !important;
+}
+
+.si:hover {
+    cursor: pointer;
+}
+
+.pi:hover {
+    cursor: pointer;
+}
+
+.pi {
+    font-size: 2rem !important;
+}
+
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 0px;
+    }
+
+    .links {
+        display: none;
+    }
+
+    .links1 {
+        display: flex;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        flex-direction: column;
+    }
+
+    .links1>div {
+        padding: 5px;
+    }
+
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border: 1px solid grey;
+    }
+
+    .links>div {
+        margin-left: 10px;
+        font-size: 1.4rem;
+        margin-right: 10px;
+        font-family: 'consolas';
+
+    }
+
+    .links>div:hover {
+        cursor: pointer;
+        color: rgb(88, 88, 216);
+    }
+
+    .more {
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: -80px;
+    }
+
+    .icons {
+        margin-right: 40px;
+        display: flex;
+        align-items: center;
+    }
+
+    .icons div input {
+        width: 220px;
+        height: 30px;
+        padding: 10px;
+        margin-right: 5px;
+    }
+
+    .si {
+        margin-right: 10px;
+        font-size: 2rem !important;
+    }
+
+    .si:hover {
+        cursor: pointer;
+    }
+
+    .pi:hover {
+        cursor: pointer;
+    }
+
+    .pi {
+        font-size: 2rem !important;
+    }
+}

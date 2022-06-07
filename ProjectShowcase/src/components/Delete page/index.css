@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #e5e5e5;
+    width: 725px;
+    height: 250px;
+    margin-top: 25px;
+}
+
+.btn {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 45px;
+    cursor: pointer;
+    margin-left: 1065px;
+    height: 42px;
+
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: #e5e5e5;
+}
+
+/*set a style for the submit button*/
+.yesbtn {
+    background-color: none;
+    color: #3371f2;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: #3371f2;
+    width: 85px;
+    opacity: 0.9;
+    border-radius: 8px;
+
+}
+
+.yesbtn:hover {
+    opacity: 1;
+}
+
+/*set a style for the submit button*/
+.nobtn {
+    background-color: none;
+    color: rgba(223, 7, 7, 0.927);
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: rgba(223, 7, 7, 0.927);
+    width: 85px;
+    opacity: 0.9;
+    border-radius: 8px;
+
+}
+
+.nobtn:hover {
+    opacity: 1;
+}

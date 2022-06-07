@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow: hidden scroll;
+}
+
+.Normal_profile #navbar-ul {
+    padding-left: 17%;
+}
+
+#navbar-ul>li {
+    padding-left: 10px;
+}
+
+#navbar-ul li>a {
+    color: #0b1514;
+}
+
+#searchbox>button,
+.Normal_profile #login-btn {
+    background-color: #3371f2;
+    border-color: #3371f2;
+    border-radius: 8px;
+}
+
+.nav-right ul>li {
+    padding: 0px 10px 0px 0px;
+}
+
+.Normal_profile .nav-right {
+    padding-left: 17%;
+}
+
+.Normal_profile .container-1 {
+    width: 650px;
+    height: 850px;
+    /* background: #e5e5e5;*/
+    border-radius: 20px;
+    margin-top: 85px;
+    margin-right: 25px;
+}
+
+.Normal_profile .back {
+    text-decoration: none;
+    color: black
+}
+
+.Normal_profile .radio {
+    margin: 8px;
+    font-size: 20px;
+    font-weight: normal;
+
+
+}
+
+.form-group>p {
+    display: inline-flex;
+    padding-left: 3%;
+
+}
+
+
+.Normal_profile .pic {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: gray;
+    width: 10%;
+    text-align: center;
+    border-radius: 8px;
+
+
+}
+
+
+
+
+
+/*full-width input fileds*/
+input[type=text],
+input[type=password],
+.Normal_profile textarea {
+    width: 65%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: none;
+    box-sizing: border-box;
+    margin-left: 28px;
+    border-radius: 20px;
+
+}
+
+/*set a style for the submit button*/
+.Normal_profile .savebtn {
+    background-color: #3371f2;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    width: 65%;
+    opacity: 0.9;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.savebtn:hover {
+    opacity: 1;
+}
+
+.Normal_profile #profile{
+    margin-left: 35px;
+}
+
+.Normal_profile #Change_password{
+    margin-left: 45px;
+}
+
+.Normal_profile .div1{
+    padding-left: 20%;
+    margin-top: 15px;
+}
+
+.Normal_profile .div2{
+    padding-left: 30%;
+}
+
+.Normal_profile .a1{
+    width: 75px;
+}
+
+.Normal_profile .p1{
+    margin-left: 28px;
+}
+
+.Normal_profile .label1{
+    margin-left: 33px;
+    font-size: 25px;
+}
+
+.Normal_profile #about-me{
+    height: 150px;
+    margin-left: 28px;
+}
+
+.Normal_profile .btn1{
+    padding-right: 4%;
+    border: none;
+    margin-left: 28px;
+}
+
+.Normal_profile .btn2{
+    padding-left: 3%;
+    border: none;
+}
+
+.Normal_profile .img2{
+    margin-left: 280px;
+}
+
+
+
+

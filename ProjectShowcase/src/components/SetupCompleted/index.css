@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    overflow: hidden scroll;
+}
+
+.Setup_completed #navbar-ul {
+    padding-left: 17%;
+}
+
+#navbar-ul>li {
+    padding-left: 10px;
+}
+
+#navbar-ul li>a {
+    color: #0b1514;
+}
+
+.Setup_completed .logoimg{
+    width: 40px;
+}
+
+.Setup_completed .image1181{
+    margin-top: 100px;
+    margin-left: -85px;
+}
+
+.Setup_completed .div1{
+    text-align: center;
+}
+
+.Setup_completed .iclass{
+    font-size: 75px;
+    color: #f4f4f2;
+}
+
+#searchbox>button,
+.Setup_completed #login-btn {
+    background-color: #3371f2;
+    border-color: #3371f2;
+    border-radius: 8px;
+}
+
+.Setup_completed .nav-right ul>li {
+    padding: 0px 10px 0px 0px;
+}
+
+.Setup_completed .nav-right {
+    padding-left: 17%;
+}
+
+.Setup_completed .container-1 {
+    width: 550px;
+    height: 250px;
+    /* background: #e5e5e5;*/
+    margin-top: 175px;
+}
+
+/*set a style for the submit button*/
+.Setup_completed .profilebtn {
+    background-color: #3371f2;
+    color: white;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border: none;
+    width: 40%;
+    opacity: 0.9;
+    border-radius: 8px;
+
+
+
+}
+
+.profilebtn:hover {
+    opacity: 1;
+}
+
+.Setup_completed .content {
+    display: grid;
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}

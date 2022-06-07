@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Editpage {
+    background: #e5e5e5;
+    width: 725px;
+    height: 705px;
+    margin-top: 25px;
+}
+.Editpage .btn {
+    background-color: none;
+    border: none;
+    color: black;
+    padding: 12px 16px;
+    font-size: 45px;
+    cursor: pointer;
+    margin-left: 1065px;
+    height: 42px;
+    
+}
+  
+/* Darker background on mouse-over */
+.Editpage .btn:hover {
+    background-color: #e5e5e5;
+}
+.Editpage .heading{
+     font-family: 'poppins';
+     font-weight: 700;
+     font-size: 35px;
+     width: 1185px;
+     height: 125px;
+     margin-right: 30px;
+     margin-top: -30px;
+  }
+/*full-width input fileds*/
+.Editpage input[type=text], select, textarea{
+    width: 40%;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: none;
+    box-sizing: border-box;
+    
+    
+}
+/*set a style for the submit button*/
+.Editpage .updatebtn{
+    background-color: none;
+    color: #3371f2;
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: #3371f2;
+    width: 85px;
+    opacity: 0.9;
+    border-radius: 8px;
+
+}
+.Editpage .savebtn:hover{
+    opacity: 1;
+}
+/*set a style for the submit button*/
+.Editpage .cancelbtn{
+    background-color: none;
+    color: rgba(223, 7, 7, 0.927);
+    padding: 8px 12px;
+    margin: 8px 0;
+    border-color: rgba(223, 7, 7, 0.927);
+    width: 85px;
+    opacity: 0.9;
+    border-radius: 8px;
+
+}
+.Editpage .cancelbtn:hover{
+    opacity: 1;
+}
