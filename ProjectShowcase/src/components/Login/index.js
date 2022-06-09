@@ -23,7 +23,7 @@ const Login=()=> {
             setPassword(e.target.value)
             localStorage.setItem('token',JSON.stringify(response.data.accesstoken));
             localStorage.setItem('val',JSON.stringify(response.data.val));
-            navigate('/')
+            navigate("/")
 
   
         } catch (error) {
@@ -70,7 +70,7 @@ const Login=()=> {
                         <br />
                          <h6 className="paccount">Don't have an Account?<Link to="/joinus">Create account</Link></h6>
                     </form>    
-                        
+                        <h6>{msg}</h6>
                 </div>
             </div>
             <div className="col-2">
